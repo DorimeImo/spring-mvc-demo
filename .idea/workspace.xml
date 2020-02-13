@@ -6,21 +6,92 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2da89e13-6ceb-4a09-9a16-4fd62fa9fdd6" name="Default Changelist" comment="" />
+    <list default="true" id="2da89e13-6ceb-4a09-9a16-4fd62fa9fdd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvcdemo/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvcdemo/dao/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-students.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_demo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvcdemo/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvcdemo/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvcdemo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvcdemo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvcdemo/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvcdemo/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvcdemo/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvcdemo/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/.idea/artifacts/spring_mvc_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/.idea/artifacts/spring_mvc_demo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/WEB-INF/classes/mvcdemo/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/WEB-INF/classes/mvcdemo/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/WEB-INF/classes/mvcdemo/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/WEB-INF/classes/mvcdemo/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/spring-mvc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/spring-mvc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/src/main/java/mvcdemo/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/src/main/java/mvcdemo/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/src/main/java/mvcdemo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/src/main/java/mvcdemo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/view/student-confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/view/student-confirm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/view/student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo-1.0-SNAPSHOT/web/WEB-INF/view/student-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -37,7 +108,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1WtTCSsk7fodNMv8zqWow0kn1SD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -143,6 +219,21 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4ed940ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,10 +255,22 @@
       <workItem from="1580385317609" duration="8318000" />
       <workItem from="1580403223229" duration="4128000" />
       <workItem from="1580554382602" duration="9809000" />
+      <workItem from="1581599583200" duration="3727000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

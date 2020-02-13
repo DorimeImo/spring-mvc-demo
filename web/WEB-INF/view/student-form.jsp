@@ -29,19 +29,8 @@
     Last name (*): <form:input path="lastName"/>
     <form:errors path="lastName" cssClass="error"/>
     <br><br>
-    How many hours you plan to program per week(*):  <form:input path="hoursInProgrammingPerWeek"/>
-    <form:errors path="hoursInProgrammingPerWeek" cssClass="error"/>
-    <br><br>
-    Country: <form:select path="country">
-    <%--@elvariable id="theCountryOptions" type="java.util.Map"--%>
-                <form:options items="${theCountryOptions}"/>
-            </form:select>
-    <br><br>
-    Select the programming language:
-        <form:radiobuttons path="favouriteLanguage" items="${theProgrammingLanguages}"/>
-    <br><br>
-    Select the operating system:
-        <form:checkboxes path="operatingSystems" items="${theOperatingSystems}"/>
+    Email(*):  <form:input path="email"/>
+    <form:errors path="email" cssClass="error"/>
     <br><br>
     <input type="submit" value="Submit">
 </form:form>

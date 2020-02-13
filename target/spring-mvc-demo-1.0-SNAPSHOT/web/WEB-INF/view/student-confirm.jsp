@@ -9,18 +9,10 @@
 </head>
 <body>
 <br><br>
-Student confirmed: ${student.firstName} ${student.lastName} from ${student.country}.
+Student confirmed: ${student.firstName} ${student.lastName}
 <br><br>
-Programming actives per week: ${student.hoursInProgrammingPerWeek} hours.
-<br><br>
-Weekly amount of hours in practice: ${student.favouriteLanguage}
-<br><br>
-The selected operating systems are:
-<ul>
-    <c:forEach var="temp" items="${student.operatingSystems}">
-        <li>${temp} </li>
-    </c:forEach>
-</ul>
+Email: ${student.email}
+
 <br><br>
 <img src="../../../web/WEB-INF/resources/images/student.png"/>
 </body>

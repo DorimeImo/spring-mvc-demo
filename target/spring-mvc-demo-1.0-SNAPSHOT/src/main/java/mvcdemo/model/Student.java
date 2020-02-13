@@ -1,53 +1,60 @@
 package mvcdemo.model;
 
 
+import javax.persistence.*;
 import javax.validation.constraints.*;
 
+@Entity
+@Table(name = "student")
 public class Student {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
 
     @NotNull(message = "is required")
     @Size(min=1, message = "is required")
     @Pattern(regexp = "[a-zA-Z]+", message = "wrong input")
+    @Column(name = "first_name")
     private String firstName;
 
     @NotNull(message = "is required")
     @Size(min=1, message = "is required")
     @Pattern(regexp = "[a-zA-Z]+", message = "wrong input")
+    @Column(name = "last_name")
     private String lastName;
 
     @NotNull(message = "is required")
-    @Min(value = 3, message = "you cant spend less than 3 hours- it is inefficiently")
-    @Max(value = 50, message = "you cant spend more than 30 hours- it is dangerous")
-    private Integer hoursInProgrammingPerWeek;
+    @Size(min=1, message = "is required")
+    @Pattern(regexp = ".+@.+\\..+", message = "wrong input")
+    @Column(name = "email")
+    private String email;
 
-    private String country;
 
-    private String favouriteLanguage;
-
-    private String[] operatingSystems;
-
-    public Integer getHoursInProgrammingPerWeek() {
-        return hoursInProgrammingPerWeek;
+    public Student(@NotNull(message = "is required") @Size(min = 1, message = "is required") @Pattern(regexp = "[a-zA-Z]+", message = "wrong input") String firstName, @NotNull(message = "is required") @Size(min = 1, message = "is required") @Pattern(regexp = "[a-zA-Z]+", message = "wrong input") String lastName, @NotNull(message = "is required") @Size(min = 1, message = "is required") String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
     }
 
-    public void setHoursInProgrammingPerWeek(Integer hoursInProgrammingPerWeek) {
-        this.hoursInProgrammingPerWeek = hoursInProgrammingPerWeek;
+    public Student() {
     }
 
-    public String getCountry() {
-        return country;
+    public int getId() {
+        return id;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getFavouriteLanguage() {
-        return favouriteLanguage;
+    public String getEmail() {
+        return email;
     }
 
-    public void setFavouriteLanguage(String favouriteLanguage) {
-        this.favouriteLanguage = favouriteLanguage;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getFirstName() {
@@ -66,11 +73,5 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public String[] getOperatingSystems() {
-        return operatingSystems;
-    }
 
-    public void setOperatingSystems(String[] operatingSystems) {
-        this.operatingSystems = operatingSystems;
-    }
 }

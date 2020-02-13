@@ -1,6 +1,8 @@
 package mvcdemo;
 
+import mvcdemo.dao.StudentDao;
 import mvcdemo.model.Student;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
+import java.util.List;
 import java.util.Map;
 
 
@@ -28,21 +31,22 @@ public class StudentController {
         webDataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
     }
 
-    @Value("#{countryOptions}")
-    public Map<String,String> theCountryOptions;
+    @Autowired
+    StudentDao studentDao;
 
-    @Value("#{progLangOptions}")
-    public Map<String,String> programmingLanguages;
-
-    @Value("#{operSystems}")
-    public Map<String,String> operatingSystems;
+//unused values
+//    @Value("#{countryOptions}")
+//    public Map<String,String> theCountryOptions;
+//
+//    @Value("#{progLangOptions}")
+//    public Map<String,String> programmingLanguages;
+//
+//    @Value("#{operSystems}")
+//    public Map<String,String> operatingSystems;
 
     @RequestMapping("/showForm")
     public String showForm(Model model){
         model.addAttribute("student", new Student());
-        model.addAttribute("theCountryOptions", theCountryOptions);
-        model.addAttribute("theProgrammingLanguages", programmingLanguages);
-        model.addAttribute("theOperatingSystems", operatingSystems);
         return "student-form";
     }
 
@@ -50,13 +54,16 @@ public class StudentController {
     public String processForm(@Valid @ModelAttribute("student") Student student
             , BindingResult bindingResult, Model model){
         if (bindingResult.hasErrors()){
-            model.addAttribute("theCountryOptions", theCountryOptions);
-            model.addAttribute("theProgrammingLanguages", programmingLanguages);
-            model.addAttribute("theOperatingSystems", operatingSystems);
             return "student-form";
         }
         else {
             return "student-confirm";
         }
+    }
+    @RequestMapping ("/list")
+    public String listOfStudents(Model model){
+        List<Student> list = studentDao.getStudentList();
+        model.addAttribute("students", list);
+        return "list-students";
     }
 }
