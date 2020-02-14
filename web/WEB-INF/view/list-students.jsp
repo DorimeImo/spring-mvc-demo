@@ -10,6 +10,9 @@
 <html>
 <head>
     <title>Students list</title>
+
+    <link type="text/css" rel="stylesheet"
+    href="/web/WEB-INF/resources/css/style.css">
 </head>
 <body>
     <div id="wrapper">
@@ -20,6 +23,9 @@
 
     <div id="container">
         <div id="content">
+            <input type="button" value="Add Student"
+            onclick="window.location.href='showForm'; return false;"
+            class="add-button">
             <table>
                 <tr>
                     <th>First Name</th>

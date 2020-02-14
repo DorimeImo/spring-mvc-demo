@@ -17,7 +17,6 @@ public class StudentDaoImpl implements StudentDao {
     SessionFactory sessionFactory;
 
     @Override
-    @Transactional
     public List<Student> getStudentList() {
         Session session = sessionFactory.getCurrentSession();
         Query <Student> query = session.createQuery("from Student", Student.class);
